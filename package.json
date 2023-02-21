@@ -1,0 +1,50 @@
+{
+  "name": "pkgroll",
+  "version": "0.0.0-semantic-release",
+  "description": "Zero-config rollup bundler",
+  "keywords": [
+    "zero config",
+    "rollup",
+    "package.json",
+    "exports",
+    "esm",
+    "cjs",
+    "commonjs",
+    "typescript",
+    "declaration"
+  ],
+  "license": "MIT",
+  "repository": "privatenumber/pkgroll",
+  "funding": "https://github.com/privatenumber/pkgroll?sponsor=1",
+  "author": {
+    "name": "Hiroki Osame",
+    "email": "hiroki.osame@gmail.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "imports": {
+    "typescript": "./src/local-typescript-loader.ts"
+  },
+  "bin": "./dist/cli.js",
+  "peerDependencies": {
+    "typescript": "^4.1"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@rollup/plugin-alias": "^4.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-inject": "^5.0.3",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/pluginutils": "^5.0.2",
+    "esbuild": "^0.17.7",
+    "magic-string": "^0.29.0",
+    "rollup": "^2.79.1"
+  }
+}
