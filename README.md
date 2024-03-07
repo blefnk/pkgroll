@@ -9,7 +9,7 @@
 
 _pkgroll_ is a JavaScript package bundler powered by Rollup that automatically builds your package from entry-points defined in `package.json`. No config necessary!
 
-Write your code in TypeScript/ESM and run `pkgroll` to get ESM/CommonJS/.d.ts outputs!
+Write your code in TypeScript/ESM and run `pkgroll` to get ESM + CommonJS + .d.ts outputs!
 
 ### Features
 - ✅ `package.json#exports` to define entry-points
